@@ -26,7 +26,13 @@ The main execution flow starts in the **Main** class, which:
 2. Make sure MySQL/MariaDB is running.  
 3. Create a database named `VeterinariaDB` and execute the script `database.sql` (included in this repo) to set up tables.  
 4. Open the `Main.java` class.  
-5. Run the project → the console-based UI will start.  
+5. Run the project → the console-based UI will start.
+
+## Database Setup
+1. Open MySQL/MariaDB.
+2. Create the database:
+   ```sql
+   CREATE DATABASE VeterinariaDB;
 
 ## 📚 Learning Purpose
 This project was developed to practice:
